@@ -1,0 +1,18 @@
+[tool.poetry]
+name = "fastapi-crud-auth-boilerplate"
+version = "0.1.0"
+description = ""
+authors = ["yegorjke <yegorjke@gmail.com>"]
+
+[tool.poetry.dependencies]
+python = "^3.9"
+fastapi = "^0.65.2"
+uvicorn = "^0.14.0"
+
+[tool.poetry.dev-dependencies]
+pytest = "^5.2"
+requests = "^2.25.1"
+
+[build-system]
+requires = ["poetry-core>=1.0.0"]
+build-backend = "poetry.core.masonry.api"
